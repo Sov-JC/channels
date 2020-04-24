@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'chat',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ChannelsTutorial.wsgi.application'
 
-ASGI_APPLICATION = "ChannelsTutorial.routing.application"
+#ASGI_APPLICATION = "ChannelsTutorial.routing.application"
 
 
 # Database
@@ -120,3 +121,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+ASGI_APPLICATION = "ChannelsTutorial.routing.application"
