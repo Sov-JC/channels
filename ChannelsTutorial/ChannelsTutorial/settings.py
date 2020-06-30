@@ -70,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ChannelsTutorial.wsgi.application'
 
-#ASGI_APPLICATION = "ChannelsTutorial.routing.application"
+ASGI_APPLICATION = "ChannelsTutorial.routing.application"
 
 
 # Database
